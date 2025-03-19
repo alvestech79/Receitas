@@ -1,31 +1,32 @@
-*{
+* {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
-:root
-font-family: "Alice", serif;
-color: #573A37;
+:root {
+    font-family: "Alice", serif;
+    color: #573A37;
+}
 
 body {
-    background-image: url(assets/bg-image.jpg);
-    background-size: cover;
+    background: url(assets/bg-image.jpg) no-repeat center/cover;
 }
 
 #page {
-    box-sizing: border-box;
     width: 800px;
     padding: 24px;
     background-color: #F0E8C2;
     border-radius: 24px;
     margin: 48px auto 28px;
 }
+
 img {
     border-radius: 16px;
 }
 
 main {
-padding: 24px;
+    padding: 24px;
 }
 
 section + section {
@@ -33,22 +34,21 @@ section + section {
 }
 
 #about p + p {
-   margin-top: 12px; 
-}
-h1 {
-    line-height: 140%;
-    font-size: 40px;
-    margin-bottom: 4px;
-}
-
-h2 {
-    font-size: 24px;
+    margin-top: 12px;
 }
 
 h1, h2 {
     color: #291B1A;
-    margin-bottom: 4px;
     line-height: 150%;
+    margin-bottom: 4px;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+h2 {
+    font-size: 24px;
 }
 
 footer {
